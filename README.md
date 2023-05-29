@@ -43,7 +43,7 @@ In **auth/api/[...nextauth]/route.js**, you need to set up your logic to validat
 ```javascript
 async authorize(credentials, req) {
         /*
-            You can use the methods gived by next-auth adapter to find your user:
+            You can use the methods given by next-auth adapter to find your user:
             Example: authOptions.adapter.getUserByEmail("youremail@gmail.com)
         */
         const user = await authOptions.adapter.getUser(
