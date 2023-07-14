@@ -57,7 +57,7 @@ async authorize(credentials, req) {
       },
 ```
 
-you can also pass the email via credentials, like so:
+you can also pass the email via credentials:
 
 ```javascript
 async authorize(credentials, req) {
